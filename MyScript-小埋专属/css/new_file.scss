@@ -1,0 +1,27 @@
+
+
+//$navArr:("home","develop","user","data","template","service","nearby","set");
+//
+//@each $i in $navArr{
+//  .#{$i}{
+//      color:#fff;
+//  }
+//}
+
+@import "mixin.scss";
+@import "base.scss";
+
+@if( 1 == 0){
+    .heiheihei{
+        color:#fff;
+    }
+}
+
+
+
+.hei{
+    @include text( 11,11 );
+    @extend .box;
+}
+
+

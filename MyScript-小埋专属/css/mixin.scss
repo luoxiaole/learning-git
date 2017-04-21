@@ -1,0 +1,6 @@
+
+@mixin text( $num: 266px,$value: 266px){
+    color:$num;
+    font-size:$value;
+}
+
